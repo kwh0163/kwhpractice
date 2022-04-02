@@ -179,4 +179,26 @@
 		printf("제%d사분면", n);
 		*/
 
+	//continue
+	/*
+			for (int i = 1; i < 6; i++)
+			{
+				if (i % 3 == 0)
+				{
+					continue;
+				}
+				printf("%d    ", i);
+			}
+			*/
+
+	//shift 연산자
+	/*
+			int memory = 3;	//0000 0011
+			printf("memory의 값 : %d\n", memory <<= 3);	//0000 0011 -> 0001 1000 = 16 + 8 = 24
+
+			int count = 10;	//0000 1010
+			printf("memory의 값 : %d\n", count >>= 2); // 0000 1010 -> 0000 0010 = 2
+			printf("memory의 값 : %d\n", count <<= 2); // 0000 0010 -> 0000 1000 = 8		사라진값은 다시 돌아오지않음
+			*/
+
 //}
