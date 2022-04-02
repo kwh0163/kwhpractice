@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include "20220402.h"
+#include "피보나치.h"
 
-int main()
+void main()
 {
-
+	//Fibonacci();
 }

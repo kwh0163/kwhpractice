@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="kwhc.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20220402.h" />
+    <ClInclude Include="피보나치.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
